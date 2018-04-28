@@ -68,3 +68,32 @@ footer{
   font-family: 'Bitter', serif;
   font-size: 12px;
 }
+
+
+/* Adding animation */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  transition: all 2s;
+}
