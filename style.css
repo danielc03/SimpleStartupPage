@@ -12,7 +12,7 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: #74132D; 
 }
 
 .faded {
@@ -21,7 +21,8 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
+  /*background-image: url("header.jpg");*/
+  background: linear-gradient(to right, #AD74A8 ,#321456 );
   background-size: cover;
   height: 100%;
 }
@@ -47,12 +48,12 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: #74132D;
+  border-color: #74132D; }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: #9A334F;
+  border-color: #74132D;
   border-width: 5px;
   cursor: pointer;
 }
@@ -62,7 +63,7 @@ footer{
   height: 40px;
   widows: 100%;
   text-align: center;
-  color: rgb(255, 127, 0);
+  color: #9A334F;
   position: absolute;
   bottom: 0;
   font-family: 'Bitter', serif;
